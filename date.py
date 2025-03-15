@@ -1,5 +1,6 @@
 #1
-  import datetime current_date=datetime.date.today()
+  import datetime 
+  current_date=datetime.date.today()
 
   five=current_date - datetime.timedelta(days=5) formatted_date=five.strftime('%d-%m-%Y')
 
