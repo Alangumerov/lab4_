@@ -1,4 +1,4 @@
-1)
+#1
   import datetime current_date=datetime.date.today()
 
   five=current_date - datetime.timedelta(days=5) formatted_date=five.strftime('%d-%m-%Y')
@@ -6,7 +6,7 @@
   print(formatted_date)
 
 
-2)
+#2
  import datetime
 
  current_date = datetime.date.today()
@@ -21,7 +21,7 @@
  print(formatted_yesterday_data)
  print(formatted_tommorow_data)
 
-3)
+#3
 import datetime
 
 current_date = datetime.datetime.now()
@@ -32,7 +32,7 @@ print(current_date2)
 
 
 
-4)
+#4
 import datetime
 
 date1 = datetime.datetime(2025, 2, 21, 14, 30, 0)
